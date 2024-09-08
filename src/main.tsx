@@ -4,7 +4,8 @@ import { LDProvider } from 'launchdarkly-react-client-sdk'
 import App from './App.tsx'
 import './index.css'
 
-const clientSideID = import.meta.env.VITE_CLIENT_SIDE_ID ?? ''
+// // README: set your clientSideId
+const clientSideID = import.meta.env.VITE_CLIENT_SIDE_ID ?? 'your-client-side-id'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
